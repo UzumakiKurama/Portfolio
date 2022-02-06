@@ -1,0 +1,36 @@
+*,
+*::after,
+*::before {
+     margin: 0;
+     padding: 0;
+     box-sizing: inherit;
+}
+
+html {
+     font-size: 62.5%;
+     overflow-x: hidden;
+
+     @include respond(phone) {
+          font-size: 50%;
+          overflow-x: hidden;
+     }
+
+     @include respond(tab-port) {
+          font-size: 50%; // 1rem = 8px
+     }
+
+     @include respond(big-desktop) {
+          font-size: 75%; // 1rem =12px
+     }
+}
+
+body {
+     font-family: "David Libre", sans-serif;
+     box-sizing: border-box;
+}
+
+main {
+     background-color: $color-primary;
+     position: relative;
+     z-index: 1;
+}

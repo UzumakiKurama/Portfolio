@@ -1,0 +1,87 @@
+.projects {
+     clear: both;
+     &__container {
+          width: 80%;
+          margin: 0 auto;
+          color: #fff;
+     }
+
+     &__main {
+          &--title {
+               display: flex;
+               @include respond(phone) {
+                    flex-wrap: wrap;
+               }
+               opacity: 0;
+               padding-bottom: 4rem;
+               @include respond(phone) {
+                    padding-bottom: 5rem;
+               }
+
+               &-num {
+                    display: none;
+                    color: #fff;
+                    text-transform: uppercase;
+                    font-size: 6rem;
+                    font-family: termina, sans-serif;
+                    font-weight: 900;
+                    color: #fff;
+
+                    @include respond(phone) {
+                         font-size: 4rem;
+                         display: inline;
+                    }
+               }
+
+               &:hover &-num {
+                    display: inline;
+               }
+
+               &-link {
+                    display: inline-table;
+                    text-transform: uppercase;
+                    font-size: 6rem;
+                    font-family: termina, sans-serif;
+                    font-weight: 900;
+                    -webkit-text-stroke: 1px #fff;
+                    color: transparent;
+                    flex: 0 0 70%;
+
+                    @include respond(phone) {
+                         font-size: 4rem;
+                         color: white;
+                         -webkit-text-stroke: 0px;
+                    }
+               }
+
+               &:hover &-link {
+                    color: #fff;
+                    -webkit-text-stroke: 0px;
+               }
+
+               &:hover .tags__item {
+                    opacity: 1;
+                    animation: animate-pop 1s forwards;
+               }
+          }
+     }
+}
+
+.tags {
+     display: flex;
+     align-items: center;
+     justify-content: center;
+     flex-wrap: wrap;
+     &__item {
+          margin: 1rem;
+          padding: 1rem;
+          border: 2px solid #fff;
+          font-size: 1.5rem;
+          text-transform: uppercase;
+          opacity: 0;
+
+          @include respond(phone) {
+               opacity: 1;
+          }
+     }
+}

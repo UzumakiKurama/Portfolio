@@ -1,0 +1,20 @@
+@import url("https://fonts.googleapis.com/css2?family=Mulish:wght@200;300&display=swap");
+@import url("https://fonts.googleapis.com/css2?family=David+Libre:wght@500&display=swap");
+@import url("https://fonts.googleapis.com/css2?family=Merriweather&display=swap");
+
+@import "abstract/mixins";
+@import "abstract/variables";
+
+@import "base/animations";
+@import "base/base";
+@import "base/utilities";
+@import "base/section";
+@import "base/grid";
+
+@import "components/heading";
+@import "components/navigation";
+@import "components/tools";
+@import "components/projects";
+@import "components/footer";
+@import "components/hypertext";
+@import "components/scrollbar";

@@ -1,0 +1,25 @@
+.hypertext {
+     position: absolute;
+     top: 5%;
+     right: 10%;
+     @include respond(phone) {
+          display: none;
+     }
+     &__svg {
+          opacity: 0;
+          animation: animate-pop 1s 5s forwards;
+     }
+
+     &__icon {
+          animation: jump 3.5s ease alternate infinite;
+          &:nth-child(1) {
+               animation-delay: 0.1s;
+          }
+          &:nth-child(2) {
+               animation-delay: 0.2s;
+          }
+          &:nth-child(3) {
+               animation-delay: 0.3s;
+          }
+     }
+}

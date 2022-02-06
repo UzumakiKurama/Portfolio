@@ -1,0 +1,51 @@
+.footer {
+     position: sticky;
+     top: 0;
+     bottom: 0;
+     left: 0;
+     width: 100%;
+     background: #fff;
+     display: grid;
+     padding: 1rem 1rem 4rem;
+
+     &__container {
+          display: flex;
+          flex-direction: column;
+          align-items: center;
+          justify-content: center;
+          color: #101010;
+          font-size: 2.5rem;
+          text-align: center;
+     }
+
+     &__title {
+          margin: 2rem 0 1rem 0;
+
+          &--2 {
+               margin-bottom: 1rem;
+          }
+     }
+
+     &__contact {
+          margin-bottom: 4rem;
+     }
+
+     &__icons {
+          a {
+               text-decoration: none;
+          }
+          &--social {
+               height: 8rem;
+               width: 8rem;
+               margin: 1rem;
+               padding: 1rem;
+               border-radius: 5px;
+          }
+     }
+
+     &__end {
+          font-size: 1.5rem;
+          position: relative;
+          bottom: -2rem;
+     }
+}

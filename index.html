@@ -1,0 +1,253 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <link rel="stylesheet" href="css/style.css" />
+    <link rel="shortcut icon" type="image/png" href="images/tabicon.PNG" />
+
+    <title>Freelancer</title>
+  </head>
+  <body>
+
+    <div id="progressBar">
+    <div id=scrollPath>    
+    </div> 
+
+    <div class="navigation">
+      <nav class="navigation__nav">
+        <ul class="navigation__list">
+          <li class="navigation__item navigation__brand">
+            <span >abhijeet</span>
+          </li>
+          <input id="toggle" type="checkbox" class="navigation__toggle">
+          <label class="toggle-container" for="toggle">
+            <span class="button button-toggle"></span>
+          </label>
+          <div class="navigation__smallScreen">
+            <li class="navigation__item">
+              <a href="#section-heading" class="navigation__link">Home</a>
+            </li>
+            <li class="navigation__item">
+              <a href="#section-tool" class="navigation__link">Tools</a>
+            </li>
+            <li class="navigation__item">
+              <a href="#section-project" class="navigation__link">Projects</a>
+            </li>
+            <li class="navigation__item">
+              <a href="#contact" class="navigation__link">Contact</a>
+            </li>
+          </div>
+        </ul>
+      </nav>
+    </div>
+
+    <main>
+      <section class="section-heading" id="section-heading">
+        <div class="heading">
+          <div class="heading__primary">
+            <p class="heading__primary--first">Hello !</p>
+            <p class="heading__primary--second">I'm Abhijeet.</p>
+          </div>
+
+          <div class="heading__secondary">
+            <p class="heading__secondary--first">I am a web developer.</p>
+            <p class="heading__secondary--second">
+              I mostly carry out frontend work.
+            </p>
+            <p class="heading__secondary--third">
+              I can do simple backend stuff.
+            </p>
+            <p class="heading__secondary--fourth">
+              For more info see
+              <span class="heading__secondary--fourth--text">projects.</span>
+            </p>
+            <div  class="heading__secondary--arrow-down" id="arrow-down"><a href="#section-project"> <span>&#8595</span></a></div>
+          </div>
+        </div>
+
+        <div class="hypertext">
+          <svg class="hypertext__svg" width="38rem" height="50rem" viewBox="0 0 64 64" fill="none" xmlns="http://www.w3.org/2000/svg">
+            <path class="hypertext__icon" d="M21.87 13.6696C21.6843 13.4836 21.4637 13.3361 21.2209 13.2355C20.9781 13.1348 20.7179 13.083 20.455 13.083C20.1922 13.083 19.9319 13.1348 19.6891 13.2355C19.4464 13.3361 19.2258 13.4836 19.04 13.6696L2.13003 30.5896C1.94408 30.7753 1.79656 30.9959 1.69591 31.2387C1.59526 31.4815 1.54346 31.7418 1.54346 32.0046C1.54346 32.2674 1.59526 32.5277 1.69591 32.7705C1.79656 33.0133 1.94408 33.2338 2.13003 33.4196L19 50.3296C19.3753 50.7049 19.8843 50.9157 20.415 50.9157C20.9458 50.9157 21.4547 50.7049 21.83 50.3296C22.2053 49.9543 22.4161 49.4453 22.4161 48.9146C22.4161 48.3839 22.2053 47.8749 21.83 47.4996L6.37003 31.9996L21.87 16.4996C22.056 16.3138 22.2035 16.0933 22.3041 15.8505C22.4048 15.6077 22.4566 15.3474 22.4566 15.0846C22.4566 14.8218 22.4048 14.5615 22.3041 14.3187C22.2035 14.0759 22.056 13.8553 21.87 13.6696V13.6696Z" fill="white"/>
+            <path class="hypertext__icon" d="M61.4101 30.5896L44.5001 13.6696C44.1248 13.2943 43.6158 13.0835 43.0851 13.0835C42.5544 13.0835 42.0454 13.2943 41.6701 13.6696C41.2948 14.0449 41.084 14.5539 41.084 15.0846C41.084 15.6153 41.2948 16.1243 41.6701 16.4996L57.1701 31.9996L41.6701 47.4996C41.2948 47.8749 41.084 48.3839 41.084 48.9146C41.084 49.4453 41.2948 49.9543 41.6701 50.3296C42.0454 50.7049 42.5544 50.9157 43.0851 50.9157C43.6158 50.9157 44.1248 50.7049 44.5001 50.3296L61.4101 33.4096C61.7826 33.0349 61.9917 32.528 61.9917 31.9996C61.9917 31.4712 61.7826 30.9643 61.4101 30.5896V30.5896Z" fill="white"/>
+            <path class="hypertext__icon" d="M36.93 7.48978C36.6719 7.43732 36.406 7.43636 36.1476 7.48694C35.8891 7.53751 35.6432 7.63864 35.4239 7.78452C35.2046 7.9304 35.0163 8.11815 34.8698 8.33699C34.7232 8.55584 34.6214 8.80147 34.57 9.05979L25.5 54.1498C25.4476 54.4079 25.4466 54.6738 25.4972 54.9323C25.5478 55.1907 25.6489 55.4367 25.7948 55.6559C25.9407 55.8752 26.1284 56.0635 26.3472 56.2101C26.5661 56.3566 26.8117 56.4584 27.07 56.5098C27.203 56.5232 27.337 56.5232 27.47 56.5098C27.9393 56.5188 28.3969 56.3624 28.7625 56.0681C29.1281 55.7737 29.3786 55.3602 29.47 54.8998L38.5 9.84979C38.5525 9.59169 38.5535 9.32578 38.5029 9.06731C38.4523 8.80885 38.3512 8.56291 38.2053 8.34364C38.0594 8.12436 37.8717 7.93605 37.6528 7.78952C37.434 7.64299 37.1884 7.54113 36.93 7.48978V7.48978Z" fill="white"/>
+          </svg>
+        </div>
+      </section>
+
+      <section class="section-tools" id="section-tool">
+        <div class="tools">
+
+          <div class="tools__container">
+            <h2 class="tools__heading"> < /frontend></FRONTEND>  </h2>
+            <ul class="tools__list">
+              <li class="tools__list--item">
+                <img src="./images/png/001-html.png" alt="" class="tools__list--item--image">
+                <div class="tools__list--item--title"> HTML </div>
+              </li>
+              <li class="tools__list--item">
+                <img src="./images/png/002-css.png" alt="" class="tools__list--item--image">
+                <div class="tools__list--item--title"> CSS </div>
+              </li>
+              <li class="tools__list--item">
+                <img src="./images/png/004-react.png" alt="" class="tools__list--item--image">
+                <div class="tools__list--item--title"> REACT </div>
+              </li>
+              <li class="tools__list--item">
+                <img src="./images/png/003-sass.png" alt="" class="tools__list--item--image">
+                <div class="tools__list--item--title"> SASS </div>
+              </li>
+              <li class="tools__list--item">
+                <img src="./images/png/005-bootstrap.png" alt="" class="tools__list--item--image">
+                <div class="tools__list--item--title"> BOOTSTRAP </div>
+              </li>
+              <li class="tools__list--item">
+                <img src="./images/png/007-letter-m.png" alt="" class="tools__list--item--image">
+                <div class="tools__list--item--title"> MATERIAL UI </div>
+              </li>
+            </ul>
+          </div>
+
+          <div class="tools__container">
+            <h2 class="tools__heading"> < /backend> </h2>
+            <ul class="tools__list">
+              <li class="tools__list--item">
+                <img src="./images/png/008-nodejs.png" alt="" class="tools__list--item--image">
+                <div class="tools__list--item--title"> NODEJS </div>
+              </li>
+              <li class="tools__list--item">
+                <img src="./images/png/009-express.png" alt="" class="tools__list--item--image">
+                <div class="tools__list--item--title"> EXPRESS</div>
+              </li>
+              <li class="tools__list--item">
+                <img src="./images/png/010-java.png" alt="" class="tools__list--item--image">
+                <div class="tools__list--item--title"> JAVA </div>
+              </li>
+              <li class="tools__list--item">
+                <img src="./images/png/006-js.png" alt="" class="tools__list--item--image">
+                <div class="tools__list--item--title"> JAVASCRIPT</div>
+              </li>
+            </ul>
+          </div>
+          <div class="tools__container">
+            <h2 class="tools__heading"> < /database> </h2>
+            <ul class="tools__list">
+              <li class="tools__list--item">
+                <img src="./images/png/011-leaf.png" alt="" class="tools__list--item--image">
+                <div class="tools__list--item--title"> MONGODB </div>
+              </li>
+              <li class="tools__list--item">
+                <img src="./images/png/012-mysql.png" alt="" class="tools__list--item--image">
+                <div class="tools__list--item--title"> MYSQL </div>
+              </li>
+              <li class="tools__list--item">
+                <img src="./images/png/016-icons8-google-firebase-console.png" alt="" class="tools__list--item--image">
+                <div class="tools__list--item--title"> FIREBASE</div>
+              </li>
+            </ul>
+          </div>
+          <div class="tools__container">
+            <h2 class="tools__heading"> < /tools> </h2>
+            <ul class="tools__list">
+              <li class="tools__list--item">
+                <img src="./images/png/013-github-sign.png" alt="" class="tools__list--item--image">
+                <div class="tools__list--item--title"> GITHUB</div>
+              </li>
+              <li class="tools__list--item">
+                <img src="./images/png/014-selenium.png" alt="" class="tools__list--item--image">
+                <div class="tools__list--item--title"> SELENIUM</div>
+              </li>
+              <li class="tools__list--item">
+                <img src="./images/png/015-jira.png" alt="" class="tools__list--item--image">
+                <div class="tools__list--item--title"> JIRA</div>
+              </li>
+            </ul>
+          </div>
+        </div>
+      </section>
+
+      <section class="section-projects" id="section-project">
+        <div class="projects__container">
+          <div class="projects__main">
+            <div class="projects__main--title" id="project-1">
+              <div class="projects__main--title-num">1.</div>
+              <a href="https://worldofanimefans.herokuapp.com/">
+                <div class="projects__main--title-link">
+                  <span>Animeworld</span> <br>
+                  <span>anime art webapp</span> 
+                </div>
+              </a>
+              <div class="tags">
+                <div class="tags__item">Full stack</div>
+                <div class="tags__item">
+                  HTML/CSS
+                </div>
+                <div class="tags__item">Javascript</div>
+                <div class="tags__item">MongoDB</div>
+                <div class="tags__item">jquery</div>
+              </div>
+            </div>
+            <div class="projects__main--title" id="project-2"> 
+              <div class="projects__main--title-num" >2.</div>
+              <a href="https://naturetours-frontenddesign.netlify.app/">
+              <div class="projects__main--title-link">
+                <span>Natours</span><br>
+                <span>tours in the nature</span>
+              </div>
+            </a>
+              <div class="tags">
+                <div class="tags__item">Frontend</div>
+                <div class="tags__item">HTML5</div>
+                <div class="tags__item">SCSS</div>
+                <div class="tags__item">Animations</div>
+                <div class="tags__item">responsive</div>
+              </div>
+            </div>
+            <div class="projects__main--title" id="project-3">
+              <div class="projects__main--title-num" >3.</div>
+              <a href="https://onestop-booking.netlify.app/">
+                <div class="projects__main--title-link">
+                  <span>Trillio</span> <br>
+                  <span>one stop booking app</span> 
+                </div>
+              </a>
+              <div class="tags">
+                <div class="tags__item">Frontend</div>
+                <div class="tags__item">HTML5</div>
+                <div class="tags__item">SCSS</div>
+                <div class="tags__item">Animations</div>
+                <div class="tags__item">Web Design</div>
+              </div>
+            </div>
+          </div>
+        </div>
+      </section>
+    </main>
+
+    <footer class="footer" id="contact">
+      <div class="footer__container">
+        <div class="footer__title">
+          Learning never stops.
+        </div>
+        <div class="footer__title--2">
+          Intrested in working together ?<br> Contact Me
+        </div>
+        <div class="footer__contact">
+          bbgiabhijeet12@gmail.com
+        </div>
+        <div class="footer__icons">
+          <a href="" >
+            <svg class="footer__icons--social"><use xlink:href="images/sprite.svg#icon-linkedin"></use> </svg>
+          </a>
+          <a href="" >
+            <svg class="footer__icons--social"><use xlink:href="images/sprite.svg#icon-github"></use> </svg>
+          </a>
+        </div>
+        <p class="footer__end">Portfolio is handcrafted by me</p>
+      </div>
+    </footer>
+
+    <script src="scripts/script.js"></script>
+  </body>
+</html>
