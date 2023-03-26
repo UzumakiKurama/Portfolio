@@ -2,7 +2,7 @@
      position: absolute;
      top: 5%;
      right: 10%;
-     @include respond(phone) {
+     @include respond(tab-land) {
           display: none;
      }
      &__svg {

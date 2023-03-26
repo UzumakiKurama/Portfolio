@@ -512,17 +512,17 @@ main {
 .heading__primary--first {
   overflow: hidden;
   border-right: 3px solid #000;
-  animation: animated-text__1 2s steps(80, end) 1s 1 normal both, animated-cursor 900ms steps(30, end) 3;
+  animation: animated-text__1 0.5s steps(80, end) 1s 1 normal both, animated-cursor 500ms steps(30, end) 3;
 }
 .heading__primary--second {
   overflow: hidden;
   border-right: 3px solid #000;
-  animation: animated-text__2-desktop 3s steps(80, end) 1 normal both, animated-cursor 900ms steps(30, end) 3;
+  animation: animated-text__2-desktop 0.5s steps(80, end) 1 normal both, animated-cursor 500ms steps(30, end) 2;
   animation-delay: 3s;
 }
 @media only screen and (max-width: 37.5em) and (hover: none) {
   .heading__primary--second {
-    animation: animated-text__2-phone 3s steps(80, end) 1 normal both, animated-cursor 900ms steps(30, end) 3;
+    animation: animated-text__2-phone 3s steps(80, end) 1 normal both, animated-cursor 500ms steps(30, end) 3;
     animation-delay: 3s;
   }
 }
@@ -547,25 +547,25 @@ main {
 .heading__secondary--first {
   overflow: hidden;
   border-right: 2px solid #000;
-  animation: animated-text__3 2.5s steps(60, end) 1s 1 normal both, animated-cursor 900ms steps(30, end) 3.5;
+  animation: animated-text__3 0.7s steps(60, end) 1s 1 normal both, animated-cursor 900ms steps(30, end) 3.5;
   animation-delay: 6s;
 }
 .heading__secondary--second {
   overflow: hidden;
   border-right: 2px solid #000;
-  animation: animated-text__4 3s steps(60, end) 1s 1 normal both, animated-cursor 900ms steps(30, end) 3.5;
+  animation: animated-text__4 0.7s steps(60, end) 1s 1 normal both, animated-cursor 900ms steps(30, end) 3.5;
   animation-delay: 9s;
 }
 .heading__secondary--third {
   overflow: hidden;
   border-right: 2px solid #000;
-  animation: animated-text__5 3.2s steps(60, end) 1s 1 normal both, animated-cursor 900ms steps(30, end) 3.7;
+  animation: animated-text__5 0.7s steps(60, end) 1s 1 normal both, animated-cursor 900ms steps(30, end) 3.7;
   animation-delay: 12s;
 }
 .heading__secondary--fourth {
   overflow: hidden;
   border-right: 2px solid #000;
-  animation: animated-text__6 3s steps(60, end) 1s 1 normal both, animated-cursor 900ms steps(30, end) infinite;
+  animation: animated-text__6 0.7s steps(60, end) 1s 1 normal both, animated-cursor 900ms steps(30, end) infinite;
   animation-delay: 16s;
 }
 .heading__secondary--fourth--text {
@@ -1054,7 +1054,7 @@ main {
   top: 5%;
   right: 10%;
 }
-@media only screen and (max-width: 37.5em) and (hover: none) {
+@media only screen and (max-width: 75em) {
   .hypertext {
     display: none;
   }
