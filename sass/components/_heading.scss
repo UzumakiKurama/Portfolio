@@ -23,23 +23,23 @@
                overflow: hidden;
                border-right: 3px solid $color-primary;
 
-               animation: animated-text__1 .5s steps(80, end) 1s 1 normal both,
-                    animated-cursor 500ms steps(30, end) 3;
+               animation: animated-text__1 .3s steps(80, end) .2s 1 normal both,
+                    animated-cursor 300ms steps(30, end) 3;
           }
 
           &--second {
                overflow: hidden;
                border-right: 3px solid $color-primary;
-               animation: animated-text__2-desktop .5s steps(80, end) 1 normal
+               animation: animated-text__2-desktop .2s steps(50, end) 1 normal
                          both,
-                    animated-cursor 500ms steps(30, end) 2;
-               animation-delay: 3s;
+                    animated-cursor 200ms steps(30, end) 2;
+               animation-delay: 700ms;
 
                @include respond(phone) {
                     animation: animated-text__2-phone 3s steps(80, end) 1 normal
                               both,
                          animated-cursor 500ms steps(30, end) 3;
-                    animation-delay: 3s;
+                    animation-delay: 500s;
                }
           }
      }
@@ -67,8 +67,8 @@
 
                border-right: 2px solid $color-primary;
                animation: animated-text__3 .7s steps(60, end) 1s 1 normal both,
-                    animated-cursor 900ms steps(30, end) 3.5;
-               animation-delay: 6s;
+                    animated-cursor 900ms steps(30, end) 1;
+               animation-delay: 1.2s;
           }
 
           &--second {
@@ -76,8 +76,8 @@
 
                border-right: 2px solid $color-primary;
                animation: animated-text__4 .7s steps(60, end) 1s 1 normal both,
-                    animated-cursor 900ms steps(30, end) 3.5;
-               animation-delay: 9s;
+                    animated-cursor 900ms steps(30, end) 1.1;
+               animation-delay: 1.4s;
           }
 
           &--third {
@@ -85,8 +85,8 @@
 
                border-right: 2px solid $color-primary;
                animation: animated-text__5 .7s steps(60, end) 1s 1 normal both,
-                    animated-cursor 900ms steps(30, end) 3.7;
-               animation-delay: 12s;
+                    animated-cursor 900ms steps(30, end) 1.2;
+               animation-delay: 1.6s;
           }
 
           &--fourth {
@@ -95,7 +95,7 @@
                border-right: 2px solid $color-primary;
                animation: animated-text__6 .7s steps(60, end) 1s 1 normal both,
                     animated-cursor 900ms steps(30, end) infinite;
-               animation-delay: 16s;
+               animation-delay: 1.8s;
           }
 
           &--fourth--text {
@@ -121,7 +121,7 @@
                     border-radius: 50%;
                     transition: background-color ease-in-out 0.4s;
                     animation: moveup 1.6s ease-in-out forwards;
-                    animation-delay: 19s;
+                    animation-delay: 1.5s;
 
                     @include respond(phone) {
                          font-size: 7rem;

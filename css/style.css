@@ -512,18 +512,18 @@ main {
 .heading__primary--first {
   overflow: hidden;
   border-right: 3px solid #000;
-  animation: animated-text__1 0.5s steps(80, end) 1s 1 normal both, animated-cursor 500ms steps(30, end) 3;
+  animation: animated-text__1 0.3s steps(80, end) 0.2s 1 normal both, animated-cursor 300ms steps(30, end) 3;
 }
 .heading__primary--second {
   overflow: hidden;
   border-right: 3px solid #000;
-  animation: animated-text__2-desktop 0.5s steps(80, end) 1 normal both, animated-cursor 500ms steps(30, end) 2;
-  animation-delay: 3s;
+  animation: animated-text__2-desktop 0.2s steps(50, end) 1 normal both, animated-cursor 200ms steps(30, end) 2;
+  animation-delay: 700ms;
 }
 @media only screen and (max-width: 37.5em) and (hover: none) {
   .heading__primary--second {
     animation: animated-text__2-phone 3s steps(80, end) 1 normal both, animated-cursor 500ms steps(30, end) 3;
-    animation-delay: 3s;
+    animation-delay: 500s;
   }
 }
 .heading__secondary {
@@ -547,26 +547,26 @@ main {
 .heading__secondary--first {
   overflow: hidden;
   border-right: 2px solid #000;
-  animation: animated-text__3 0.7s steps(60, end) 1s 1 normal both, animated-cursor 900ms steps(30, end) 3.5;
-  animation-delay: 6s;
+  animation: animated-text__3 0.7s steps(60, end) 1s 1 normal both, animated-cursor 900ms steps(30, end) 1;
+  animation-delay: 1.2s;
 }
 .heading__secondary--second {
   overflow: hidden;
   border-right: 2px solid #000;
-  animation: animated-text__4 0.7s steps(60, end) 1s 1 normal both, animated-cursor 900ms steps(30, end) 3.5;
-  animation-delay: 9s;
+  animation: animated-text__4 0.7s steps(60, end) 1s 1 normal both, animated-cursor 900ms steps(30, end) 1.1;
+  animation-delay: 1.4s;
 }
 .heading__secondary--third {
   overflow: hidden;
   border-right: 2px solid #000;
-  animation: animated-text__5 0.7s steps(60, end) 1s 1 normal both, animated-cursor 900ms steps(30, end) 3.7;
-  animation-delay: 12s;
+  animation: animated-text__5 0.7s steps(60, end) 1s 1 normal both, animated-cursor 900ms steps(30, end) 1.2;
+  animation-delay: 1.6s;
 }
 .heading__secondary--fourth {
   overflow: hidden;
   border-right: 2px solid #000;
   animation: animated-text__6 0.7s steps(60, end) 1s 1 normal both, animated-cursor 900ms steps(30, end) infinite;
-  animation-delay: 16s;
+  animation-delay: 1.8s;
 }
 .heading__secondary--fourth--text {
   color: #ff9a00;
@@ -589,7 +589,7 @@ main {
   border-radius: 50%;
   transition: background-color ease-in-out 0.4s;
   animation: moveup 1.6s ease-in-out forwards;
-  animation-delay: 19s;
+  animation-delay: 1.5s;
 }
 @media only screen and (max-width: 37.5em) and (hover: none) {
   .heading__secondary--arrow-down a,
